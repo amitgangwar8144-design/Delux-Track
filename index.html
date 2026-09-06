@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delux Track</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero" >
+
+        <nav class="navbar">
+            <div class="logo">DELUX TRACK</div>
+
+            <div class="nav-links">
+                
+                <a href="#">Home</a>
+                <a href="#">Tracks</a>
+                <a href="#Playlist">Playlists</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+
+            <p class="small-text">OPEN ALL HOURS • 24/7 MUSIC</p>
+
+            <h1>DELUX<br>TRACK</h1>
+
+            <p class="tagline">
+                Retro sounds. Timeless memories.
+            </p>
+
+            <button class="explore-btn">
+                EXPLORE TRACKS →
+            </button>
+
+        </div>
+        <div class="live-listeners">
+            <span class="live-dot"></span>
+            <span id="listenerCount">0</span>
+            <span>LISTENERS ONLINE</span>
+        </div>
+
+    </header>
+    <section class="tracks-section">
+
+        <div class="section-heading">
+            <p>LISTEN TO WHAT'S PLAYING</p>
+            <h2>DELUX TRACKS</h2>
+        </div>
+
+        <div class="track-container">
+
+    <div class="track-card singer-card" data-singer="Kishore">
+        <img src="images/kishore-kumar.jpg" alt="Kishore Kumar" >
+        <div class="singer-info">
+            <h3>Kishore Kumar</h3>
+            <p>Legendary 90s Voice</p>
+            <button class="explore-singer" data-singer="kishore">
+                EXPLORE →
+            </button>
+        </div>
+    </div>
+
+
+    <div class="track-card singer-card" data-singer="rafi">
+        <img src="images/mohammed-rafi.jpg" alt="Mohammed Rafi" >
+        <div class="singer-info">
+            <h3>Mohammed Rafi</h3>
+            <p>Golden Era Voice</p>
+            <button class="explore-singer" data-singer="rafi">
+                EXPLORE →
+            </button>
+        </div>
+    </div>
+
+
+    <div class="track-card singer-card" data-singer="lata">
+        <img src="images/lata-mangeshkar.jpg" alt="Lata Mangeshkar" >
+        <div class="singer-info">
+            <h3>Lata Mangeshkar</h3>
+            <p>Melody Queen</p>
+            <button class="explore-singer" data-singer="lata">
+                EXPLORE →
+            </button>
+        </div>
+    </div>
+
+
+    <div class="track-card singer-card" data-singer="asha">
+        <img src="images/asha-bhosle.jpg" alt="Asha Bhosle" >
+        <div class="singer-info">
+            <h3>Asha Bhosle</h3>
+            <p>Iconic Voice</p>
+            <button class="explore-singer" data-singer="asha">
+                EXPLORE →
+            </button>
+        </div>
+    </div>
+
+</div>
+
+    </section>
+
+    
+
+    <section class="songs-section" id="playlists">
+
+        <div class="section-heading">
+            <p>THE SOUND OF MEMORIES</p>
+            <h2>ALL TRACKS</h2>
+        </div>
+
+        <div class="playlist-container">
+
+    <div class="playlist-card" data-category="romantic">
+        <div class="playlist-icon">❤️</div>
+        <h3>Romantic 90s</h3>
+        <p>Timeless romantic songs</p>
+        <button class="playlist-btn">PLAYLIST →</button>
+    </div>
+
+    <div class="playlist-card" data-category="sad">
+        <div class="playlist-icon">💔</div>
+        <h3>90s Sad</h3>
+        <p>Melodies for late nights</p>
+        <button class="playlist-btn">PLAYLIST →</button>
+    </div>
+
+    <div class="playlist-card" data-category="love">
+        <div class="playlist-icon">💕</div>
+        <h3>90s Love</h3>
+        <p>Beautiful songs of love</p>
+        <button class="playlist-btn">PLAYLIST →</button>
+    </div>
+
+    <div class="playlist-card" data-category="classic">
+        <div class="playlist-icon">🎶</div>
+        <h3>90s Classics</h3>
+        <p>Golden era forever</p>
+        <button class="playlist-btn">PLAYLIST →</button>
+    </div>
+
+</div>
+
+        <div class="song-list" id="songList">
+
+            <div class="song">
+                <div class="song-info">
+                    <div class="song-number">01</div>
+                    <div>
+                        <h3>Pal Pal Dil Ke Paas</h3>
+                        <p>Kishore Kumar</p>
+                    </div>
+                </div>
+
+                <span class="song-duration">04:28</span>
+
+                <button class="play-song">▶</button>
+            </div>
+
+
+            <div class="song">
+                <div class="song-info">
+                    <div class="song-number">02</div>
+                    <div>
+                        <h3>Gulabi Aankhen</h3>
+                        <p>Mohammed Rafi</p>
+                    </div>
+                </div>
+
+                <span class="song-duration">03:18</span>
+
+                <button class="play-song">▶</button>
+            </div>
+
+
+            <div class="song">
+                <div class="song-info">
+                    <div class="song-number">03</div>
+                    <div>
+                        <h3>Ek Ladki Ko Dekha</h3>
+                        <p>Kumar Sanu</p>
+                    </div>
+                </div>
+
+                <span class="song-duration">04:36</span>
+
+                <button class="play-song">▶</button>
+            </div>
+
+
+            <div class="song">
+                <div class="song-info">
+                    <div class="song-number">04</div>
+                    <div>
+                        <h3>Pehla Nasha</h3>
+                        <p>Udit Narayan</p>
+                    </div>
+                </div>
+
+                <span class="song-duration">04:51</span>
+
+                <button class="play-song">▶</button>
+            </div>
+
+        </div>
+        <div class="track-filters">
+
+            <button class="filter-btn active" data-category="all">
+                ALL 90s
+            </button>
+
+            <button class="filter-btn" data-category="romantic">
+                ROMANTIC
+            </button>
+
+            <button class="filter-btn" data-category="sad">
+                SAD
+            </button>
+
+            <button class="filter-btn" data-category="love">
+                LOVE
+            </button>
+
+            <button class="filter-btn" data-category="classic">
+                CLASSICS
+            </button>
+
+        </div>
+
+
+    </section>
+
+    <div class="top-info">
+
+        <div id="clock">00:00:00</div>
+
+        <div class="online">
+            <span class="live-dot"></span>
+            <span id="trackListenerCount">0</span>
+            <span>ON THE TRACK</span>
+        </div>
+
+
+    </div>
+
+
+    <div class="shayari" id="shayari">
+        सफर लंबा हो तो संगीत साथ होना चाहिए...
+    </div>
+
+    <div class="floating-horn">
+        <button id="hornBtn" title="Play Horn">
+            📯
+        </button>
+        <span>HORN</span>
+        <audio id="hornAudio" src="audio/horn.mp3"></audio>
+    </div>
+
+
+    <div class="music-player">
+
+        <div class="current-song">
+
+            <div class="album-art">
+                🎵
+            </div>
+
+            <div class="song-details">
+                <h3 id="songTitle">90s Classic</h3>
+                <p id="artistName">Delux Track</p>
+            </div>
+
+        </div>
+
+
+        <div class="player-controls">
+
+            
+
+            <button id="previousBtn">
+                ⏮
+            </button>
+
+            <button id="playBtn">
+                ▶
+            </button>
+
+            <button id="nextBtn">
+                ⏭
+            </button>
+
+        </div>
+
+
+        <div class="progress-area">
+
+            <span id="currentTime">0:00</span>
+
+            <input
+                type="range"
+                id="progressBar"
+                value="0"
+                min="0"
+                max="100"
+            >
+
+            <span id="duration">0:00</span>
+
+        </div>
+
+    </div>
+
+
+    <script type="module">
+
+    import { initializeApp }
+        from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
+
+    import {
+        getDatabase,
+        ref,
+        push,
+        onValue,
+        onDisconnect,
+        set
+    } from "https://www.gstatic.com/firebasejs/12.17.1/firebase-database.js";
+
+
+    const firebaseConfig = {
+
+        apiKey: "AIzaSyAf4QoAe0xpq2sS_v3jbhmnsoQA7HpoVN4",
+
+        authDomain: "delux-track.firebaseapp.com",
+
+        databaseURL:
+            "https://delux-track-default-rtdb.firebaseio.com",
+
+        projectId: "delux-track",
+
+        storageBucket:
+            "delux-track.firebasestorage.app",
+
+        messagingSenderId: "505993606805",
+
+        appId:
+            "1:505993606805:web:5cbac403836a30eb28cd9c"
+
+    };
+
+
+    const app = initializeApp(firebaseConfig);
+
+    const database = getDatabase(app);
+
+
+    const connectedRef =
+        ref(database, ".info/connected");
+
+    const connectionsRef =
+        ref(database, "connections");
+
+
+    onValue(connectedRef, (snapshot) => {
+
+        console.log("Firebase connected:",
+            snapshot.val());
+
+
+        if (snapshot.val() === true) {
+
+            const connection =
+                push(connectionsRef);
+
+
+            onDisconnect(connection)
+                .remove();
+
+
+            set(connection, true);
+
+        }
+
+    });
+
+
+    onValue(connectionsRef, (snapshot) => {
+
+        let count = 0;
+
+        snapshot.forEach(() => {
+            count++;
+        });
+
+
+        const counter =
+            document.getElementById("listenerCount");
+
+
+        if (counter) {
+            counter.textContent = count;
+        }
+
+        const trackCounter =
+            document.getElementById("trackListenerCount");
+
+        if (trackCounter) {
+            trackCounter.textContent = count;
+        }
+
+    });
+
+    console.log("DELUX FIREBASE SCRIPT RUNNING");
+
+    </script>
+
+    <audio id="audioPlayer"></audio>
+
+    <!-- <audio id="hornAudio" src="audio/horn.mp3"></audio>  -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
